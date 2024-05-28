@@ -18,7 +18,7 @@ labels = {
     4: 'Warts Molluscum and other Viral Infections',
 }
 uploaded_file = st.file_uploader(
-    "Upload an image of a Sea Animal:", type=['jpg','png','jpeg']
+    "Upload an image of a skin", type=['jpg','png','jpeg']
 )
 predictions=-1
 if uploaded_file is not None:
